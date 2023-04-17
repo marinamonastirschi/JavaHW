@@ -10,21 +10,20 @@ for that array*/
                 {45,8,541,6,25,345},
                 {78,945,84,231,1,2957,12}
         };
-        int sum=0;
-        int sum1=0;
         for (int[] number : numbers) {
+            int sum=0;
+            int sum1=0;
             for (int i : number) {
                 if(i%2==0){
                     sum=sum+i;
                 }else if(i%2==1){
-                    sum1=sum+i;
+                    sum1=sum1+i;
 
                 }
 
             }
             System.out.println("Sum of even numbers is "+sum);
             System.out.println("Sum of odd numbers is "+sum1);
-
         }
 
 
