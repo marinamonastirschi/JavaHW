@@ -12,11 +12,11 @@ anything else - F
     char getGrade(int score){
         if(score>90){
             return 'A';
-        }else if(score>80&&score<=90){
+        }else if(score>80){
             return 'B';
-        }else if(score>70&&score<=80){
+        }else if(score>70){
             return 'C';
-        }else if(score>50&&score<=70){
+        }else if(score>50){
             return 'D';
         }else{
             return 'F';
@@ -25,7 +25,7 @@ anything else - F
 
     public static void main(String[] args) {
         Student obj=new Student();
-        char score=obj.getGrade(95);
+        char score=obj.getGrade(55);
         System.out.println(score);
     }
 
