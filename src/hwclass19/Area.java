@@ -5,7 +5,7 @@ public class Area {
         System.out.println(w*l);
     }
      void calculateArea(int a){
-        System.out.println(a*2);
+        System.out.println(a*a);
     }
 }
 class AreaTester{
