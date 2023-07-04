@@ -17,6 +17,7 @@ public class E1Maps {
        // System.out.println(drinks);
        // drinks.values().removeIf(x->x>3.0);
         //System.out.println(drinks);
+        drinks.clear();
 
 
 
